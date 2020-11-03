@@ -12,7 +12,6 @@ provider "azurerm" {
   features {}
 }
 
-/*
 terraform {
   backend "remote" {
     organization = "dark-contoso"
@@ -22,4 +21,3 @@ terraform {
     }
   }
 }
-*/
