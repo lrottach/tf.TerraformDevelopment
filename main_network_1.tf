@@ -126,7 +126,7 @@ resource "azurerm_virtual_network" "vnet-1" {
   }
 
   subnet {
-    name            = "BastionSubnet"
+    name            = "AzureBastionSubnet"
     address_prefix  = "10.10.2.0/24"
     security_group  = azurerm_network_security_group.nsg-bastionsubnet-vnet-1.id
   }
