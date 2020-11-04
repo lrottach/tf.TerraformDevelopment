@@ -172,5 +172,5 @@ resource "azurerm_virtual_network_peering" "peering-1-to-2" {
   name                        = "peering_vnet-1_vnet-2"
   resource_group_name         = azurerm_resource_group.rg-vnet-1.name
   virtual_network_name        = azurerm_virtual_network.vnet-1.name
-  remote_virtual_network_id   = azurerm_virtual_network.vnet-2.name
+  remote_virtual_network_id   = azurerm_virtual_network.vnet-2.id
 }

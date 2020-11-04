@@ -101,7 +101,7 @@ resource "azurerm_virtual_network_peering" "peering-2-to-1" {
   name                        = "peering_vnet-2_vnet-1"
   resource_group_name         = azurerm_resource_group.rg-vnet-2.name
   virtual_network_name        = azurerm_virtual_network.vnet-2.name
-  remote_virtual_network_id   = azurerm_virtual_network.vnet-1.name
+  remote_virtual_network_id   = azurerm_virtual_network.vnet-1.id
   allow_forwarded_traffic = true
   allow_virtual_network_access = true
 } 
