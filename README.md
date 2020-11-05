@@ -1,8 +1,14 @@
-# Terraform - Personal Good to Know
+# Getting started with Terraform and Azure
 
 Personal notes containing my experience and learnings ... about Terraform development and deployment.
 
-## Getting started - Commands
+## Documentation
+
++ [Azure Provider Documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
++ [Azure Getting Started](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/azure-get-started)
++ [Terraform Documentation](https://www.terraform.io/docs/index.html)
+
+## Commands
 
 Using Azure CLI to authenticate against Microsoft Azure.
 ```bash=a
